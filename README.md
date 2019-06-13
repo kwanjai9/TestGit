@@ -46,8 +46,20 @@ STRUCTURE (VIEWFLOW)
   * ไฟล์ชื่อ stopwords-th_new.txt ลิสของตัวหยุดคำภาษาไทย(Stop Word Removal)
 + โฟลเดอร์ model  เก็บไฟล์โมเดลที่ผ่านการเทรนแล้ว
   * ไฟล์ชื่อ _finalized_model_svc_v2_70p.sav ไฟล์โมเดลที่ผ่านการเทรนเรียบร้อยแล้ว
-
-
+  
+ ##### การติดตั้งโปรแกรมฝั่ง server
+ 
+ 1.ดาวโหลด Python เวอร์ชั่น 3.7 `<link>` :https://www.anaconda.com/distribution/
+     
+ 2.Install this package with conda run: `conda install python=3.5.0`
+     
+ 3.Install TensorFlow with pip : `python -m pip install --upgrade tensorflow`
+     
+ 4.Install library Deepcut using pip : `pip install deepcut`
+     
+ 5.Install Wordcloud using pip : `pip install wordcloud`
+      
+ 6.Install scikit-learn is using pip : `pip install -U scikit-learn`
 
 ##Folder /doc
 ------------
